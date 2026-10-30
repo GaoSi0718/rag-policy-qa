@@ -1,0 +1,147 @@
+{
+  "_说明": "离线评测集。answerable=true 的题在文档中有答案；false 的题文档中没有，用于测试拒答能力（防幻觉）。",
+  "updated": "2026-08-29",
+  "source_doc": "sample_policy.md",
+  "questions": [
+    {
+      "id": 1,
+      "question": "年假有几天？",
+      "answerable": true,
+      "reference": "工龄满1年不满10年5天，满10年不满20年10天，满20年15天",
+      "expected_article": "第8条"
+    },
+    {
+      "id": 2,
+      "question": "试用期一般多久？",
+      "answerable": true,
+      "reference": "合同3年以上试用期6个月；1年以上不满3年2个月；3个月以上不满1年1个月",
+      "expected_article": "第2条"
+    },
+    {
+      "id": 3,
+      "question": "病假需要提交什么材料？",
+      "answerable": true,
+      "reference": "3天以内提交医院诊断证明；超过3天须提交二级甲等以上医院诊断证明和病假建议书",
+      "expected_article": "第9条"
+    },
+    {
+      "id": 4,
+      "question": "出差住宿费标准是多少？",
+      "answerable": true,
+      "reference": "一线城市400元/晚，其他城市300元/晚",
+      "expected_article": "第19条"
+    },
+    {
+      "id": 5,
+      "question": "报销多久能到账？",
+      "answerable": true,
+      "reference": "审批通过后5个工作日内到账",
+      "expected_article": "第20条"
+    },
+    {
+      "id": 6,
+      "question": "迟到怎么扣钱？",
+      "answerable": true,
+      "reference": "30分钟以内每次扣30元；超30分钟不足4小时按事假半天；超4小时按事假一天",
+      "expected_article": "第6条"
+    },
+    {
+      "id": 7,
+      "question": "辞职需要提前多久通知公司？",
+      "answerable": true,
+      "reference": "提前30日书面通知，试用期内提前3日",
+      "expected_article": "第21条"
+    },
+    {
+      "id": 8,
+      "question": "男职工陪产假有多少天？",
+      "answerable": true,
+      "reference": "陪产假15天，须在配偶分娩后3个月内使用",
+      "expected_article": "第12条"
+    },
+    {
+      "id": 9,
+      "question": "忘记打卡了怎么办？",
+      "answerable": true,
+      "reference": "3个工作日内在企业微信提交补卡申请，每月不超过3次",
+      "expected_article": "第5条"
+    },
+    {
+      "id": 10,
+      "question": "全勤奖多少钱？",
+      "answerable": true,
+      "reference": "200元",
+      "expected_article": "第16条"
+    },
+    {
+      "id": 11,
+      "question": "加班工资怎么算？",
+      "answerable": true,
+      "reference": "工作日1.5倍，休息日2倍，法定节假日3倍；优先安排调休",
+      "expected_article": "第7条"
+    },
+    {
+      "id": 12,
+      "question": "公司什么时候发工资？",
+      "answerable": true,
+      "reference": "每月15日发放上月工资，遇节假日提前",
+      "expected_article": "第14条"
+    },
+    {
+      "id": 13,
+      "question": "五险一金什么时候开始交？",
+      "answerable": true,
+      "reference": "新员工自入职之日起30日内办理参保手续",
+      "expected_article": "第15条"
+    },
+    {
+      "id": 14,
+      "question": "婚假有几天？",
+      "answerable": true,
+      "reference": "10天，须在领证后1年内使用",
+      "expected_article": "第11条"
+    },
+    {
+      "id": 15,
+      "question": "事假一年最多能请多少天？",
+      "answerable": true,
+      "reference": "全年累计不得超过20天",
+      "expected_article": "第10条"
+    },
+    {
+      "id": 16,
+      "question": "出差伙食补助多少钱一天？",
+      "answerable": true,
+      "reference": "80元/天，无需提供发票",
+      "expected_article": "第19条"
+    },
+    {
+      "id": 17,
+      "question": "公司有免费班车吗？",
+      "answerable": false,
+      "reference": "文档中未提及班车",
+      "expected_article": null
+    },
+    {
+      "id": 18,
+      "question": "员工股票期权怎么行权？",
+      "answerable": false,
+      "reference": "文档中未提及股权激励",
+      "expected_article": null
+    },
+    {
+      "id": 19,
+      "question": "公司食堂中午几点开饭？",
+      "answerable": false,
+      "reference": "文档中未提及食堂",
+      "expected_article": null
+    },
+    {
+      "id": 20,
+      "question": "外籍员工签证由谁办理？",
+      "answerable": false,
+      "reference": "文档中未提及外籍员工签证",
+      "expected_article": null
+    }
+  ]
+}
