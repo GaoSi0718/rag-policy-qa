@@ -1,0 +1,8 @@
+# 核心检索器零依赖（纯标准库），以下仅为可选界面与调用所需
+streamlit>=1.36
+openai>=1.30
+python-dotenv>=1.0
+
+# 说明：
+# - w6_rag_retriever.py 只用标准库，不装任何包也能跑（python w6_rag_retriever.py）
+# - 以下依赖仅 app.py（Web 界面）需要
