@@ -1,0 +1,7 @@
+fastapi==0.141.1
+sse-starlette==3.4.11
+uvicorn==0.52.4
+openai==3.5.0
+jsonschema==4.26.0
+httpx==0.28.1
+anyio==4.15.1

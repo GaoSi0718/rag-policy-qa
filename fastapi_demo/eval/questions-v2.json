@@ -1,0 +1,178 @@
+{
+  "version": "2026-11-v2",
+  "source_doc": "data/corpus-v2.json",
+  "questions": [
+    {
+      "id": 1,
+      "question": "年假有几天？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-01"
+      ],
+      "reference": "入职周年满1年且未满3年为6天，满3年且未满6年为9天，满6年为12天。"
+    },
+    {
+      "id": 2,
+      "question": "试用期一般多久？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-02"
+      ],
+      "reference": "一年期合同的试用期为1个月，两年期合同为2个月，三年期合同为3个月。其他合同期限需咨询模拟人事。"
+    },
+    {
+      "id": 3,
+      "question": "病假需要提交什么材料？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-03"
+      ],
+      "reference": "连续病假不超过2天提交诊断证明，超过2天还须提交休息建议书。"
+    },
+    {
+      "id": 4,
+      "question": "出差住宿费标准是多少？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-04"
+      ],
+      "reference": "出差住宿上限为甲类城市420元/晚、其他城市280元/晚，凭住宿发票报销。"
+    },
+    {
+      "id": 5,
+      "question": "报销多久能到账？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-05"
+      ],
+      "reference": "财务终审通过后4个工作日内付款；退回补件期间不计时。"
+    },
+    {
+      "id": 6,
+      "question": "迟到怎么扣钱？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-06"
+      ],
+      "reference": "迟到会进入当月异常考勤清单，由员工提交说明；本制度未设按次扣款。"
+    },
+    {
+      "id": 7,
+      "question": "辞职需要提前多久通知公司？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-07"
+      ],
+      "reference": "正式员工应提前30日书面通知，试用期员工提前3日通知。"
+    },
+    {
+      "id": 8,
+      "question": "陪产假有多少天？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-08"
+      ],
+      "reference": "陪产假为12天，须在配偶分娩后60日内使用。"
+    },
+    {
+      "id": 9,
+      "question": "忘记打卡了怎么办？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-09"
+      ],
+      "reference": "漏打卡后2个工作日内在模拟考勤系统提交补卡申请，每月最多3次。"
+    },
+    {
+      "id": 10,
+      "question": "全勤奖多少钱？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-10"
+      ],
+      "reference": "全勤奖为180元/月，以月度考勤复核结果为准。"
+    },
+    {
+      "id": 11,
+      "question": "加班工资怎么算？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-11"
+      ],
+      "reference": "训练手册区分工作日1.5倍、休息日2倍和法定节假日3倍；休息日加班优先安排补休。"
+    },
+    {
+      "id": 12,
+      "question": "公司什么时候发工资？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-12"
+      ],
+      "reference": "每月12日发放上月工资，遇休息日提前至最近一个工作日。"
+    },
+    {
+      "id": 13,
+      "question": "五险一金什么时候开始交？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-13"
+      ],
+      "reference": "新员工入职后20日内提交参保及公积金开户资料；完成日期以办理回执为准。"
+    },
+    {
+      "id": 14,
+      "question": "婚假有几天？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-14"
+      ],
+      "reference": "婚假为8天，须在登记后6个月内使用。"
+    },
+    {
+      "id": 15,
+      "question": "事假一年最多能请多少天？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-15"
+      ],
+      "reference": "事假全年累计上限为18天，经主管审批后生效。"
+    },
+    {
+      "id": 16,
+      "question": "出差伙食补助多少钱一天？",
+      "status": "answered",
+      "sources": [
+        "HR-V2-16"
+      ],
+      "reference": "出差伙食补助为70元/天，已由主办方提供全天餐食时不发放。"
+    },
+    {
+      "id": 17,
+      "question": "公司有免费班车吗？",
+      "status": "refused",
+      "sources": [],
+      "reference": "合成手册没有规定该事项。"
+    },
+    {
+      "id": 18,
+      "question": "员工股票期权怎么行权？",
+      "status": "refused",
+      "sources": [],
+      "reference": "合成手册没有规定该事项。"
+    },
+    {
+      "id": 19,
+      "question": "公司食堂中午几点开饭？",
+      "status": "refused",
+      "sources": [],
+      "reference": "合成手册没有规定该事项。"
+    },
+    {
+      "id": 20,
+      "question": "外籍员工签证由谁办理？",
+      "status": "refused",
+      "sources": [],
+      "reference": "合成手册没有规定该事项。"
+    }
+  ]
+}
